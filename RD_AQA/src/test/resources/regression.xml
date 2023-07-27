@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Use tests automation">
+
+    <test name="Regression testing">
+        <classes>
+
+
+            <class name="api.tests.CreateUser"/>
+            <class name="ui.tests.TaskFlow"/>
+            <class name="api.tests.DeleteUser"/>
+
+        </classes>
+
+    </test>
+</suite>
+
